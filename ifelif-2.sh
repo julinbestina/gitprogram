@@ -2,7 +2,7 @@
 
 read -p "1-Sunday  2-Monday  3-Tuesday  4-Wednesday  5-Thursday  6-Friday  7-Saturday"
 
-x=$((RANDOM%8+1))
+x=$((RANDOM%7+1))
 
    if [ $x -eq 1 ]
       then
